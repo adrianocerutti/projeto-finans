@@ -8,6 +8,24 @@
   border-bottom: 1px solid #e5e5e5;
 }
 
+.titulo-home {
+  font-size: 3.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
 footer p a {
   margin: 5px 15px;
+}
+
+@media (max-width: 412px) {
+  .titulo-home {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+
+  .ml-4,
+  .mx-4 {
+    margin-left: 0 !important;
+  }
 }
